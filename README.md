@@ -17,3 +17,6 @@ The system can be separated in 3 main stages:
 * Power management
 * Microcontroller
 * User interface
+
+### Power management
+
