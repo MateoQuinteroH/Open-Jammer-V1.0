@@ -38,7 +38,7 @@ The chosen battery is a LiPo 3.7V 5000mAh
 
 The battery duration is:
 
-$\frac{5000mAh}{375mA = 13.3h}$
+$\frac{5000mAh}{375mA} = 13.3h$
 
 
 
