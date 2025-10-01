@@ -21,9 +21,9 @@ The system can be separated in 3 main stages:
 ### Power management
 The system will be powered from a battery, this battery must be rechargeable and the system must be usable while recharging the battery. Before calculate the power management stage, the power consumption must be defined.
 
-| Component | Power Consumption [mA] |
-| :--- | :---: |
-| ESP32-S3-WROOM-1-N16R2 | Dato 2a |
-| SSD1306 oled screen 0.96'' | Dato 2b |
+| Component | Notes | Power Consumption [mA] |
+| :--- | :---: | :---: |
+| ESP32-S3-WROOM-1-N16R2 | Dato 2a | Dato 2a |
+| SSD1306 oled screen 0.96'' | Dato 2b | Dato 2b |
 
 
