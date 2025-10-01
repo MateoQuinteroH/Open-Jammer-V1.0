@@ -44,4 +44,8 @@ The block diagram of the power management system is:
 
 <img width="313" height="423" alt="imagen" src="https://github.com/user-attachments/assets/ad784686-7e1c-430b-b2fa-732228324f67" />
 
+The battery charger chip used is the MCP73831T-2DCI/OT from microchip.
 
+| MPN  | Manufacturer | Package | Charge Current - Max [A] | Charging Saturation Voltage [V]
+| :------ | :--: | -------: |
+| MCP73831T-2DCI/OT     | MICROCHIP   | SOT-23-5   |
