@@ -36,7 +36,9 @@ The chosen battery is a LiPo 3.7V 5000mAh
 
 <img width="327" height="218" alt="imagen" src="https://github.com/user-attachments/assets/89f5ab3d-8b37-421e-a707-79ce8adb2ce0" />
 
+The battery duration is:
 
+$\frac{5000mAh}{375mA = 13.3h}$
 
 
 
