@@ -28,4 +28,8 @@ The system will be powered from a battery, this battery must be rechargeable and
 | ESP32-S3-WROOM-1-N16R2 | Modem-Sleep 40MHz Single core running 32-bit data access instructions, the other core in idle state | 21.8 |
 | SSD1306 oled screen 0.96'' | 50% check board operating current | 20 |
 
+The maximum current consumption is reached when the ESP32 is transmitting in RF and the OLED screen is at 50% check board operating current:
+
+$355mA + 20mA = 375mA$
+
 
