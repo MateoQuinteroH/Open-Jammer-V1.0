@@ -52,6 +52,6 @@ The battery charger chip used is the MCP73831T-2DCI/OT from microchip.
 
 The typical application of the MCP73831T-2DCI/OT is the:
 
-<img width="805" height="224" alt="imagen" src="https://github.com/user-attachments/assets/57d6cf3a-31b9-441c-8020-97ad8789fd37" />
+<img width="505" height="224" alt="imagen" src="https://github.com/user-attachments/assets/57d6cf3a-31b9-441c-8020-97ad8789fd37" />
 
 
