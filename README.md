@@ -63,7 +63,7 @@ The battery protection chipis the DW01.
 
 The typical application of the DW01 is the:
 
-<img width="1032" height="471" alt="imagen" src="https://github.com/user-attachments/assets/283cd79a-c7d4-4b2d-bc98-37b2b4db7c5d" />
+<img width="832" height="271" alt="imagen" src="https://github.com/user-attachments/assets/283cd79a-c7d4-4b2d-bc98-37b2b4db7c5d" />
 
 
 
