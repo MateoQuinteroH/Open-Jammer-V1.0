@@ -11,4 +11,4 @@ The project requirements are as follows:
 
 The general block diagram of the system is shown below:
 
-<img width="329" height="736" alt="imagen" src="https://github.com/user-attachments/assets/58a68f92-35f2-4a68-9d52-464b1f941697" />
+<img width="229" height="636" alt="imagen" src="https://github.com/user-attachments/assets/58a68f92-35f2-4a68-9d52-464b1f941697" />
