@@ -48,4 +48,4 @@ The battery charger chip used is the MCP73831T-2DCI/OT from microchip.
 
 | MPN  | Manufacturer | Package | Charge Current - Max [A] | Charging Saturation Voltage [V] |
 | :------ | :--: | -------: |
-| MCP73831T-2DCI/OT     | MICROCHIP   | SOT-23-5   |
+| MCP73831T-2DCI/OT | MICROCHIP | SOT-23-5 | 0.5 | 4.2 |
