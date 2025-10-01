@@ -34,7 +34,7 @@ $355mA + 20mA = 375mA$
 
 The chosen battery is a LiPo 3.7V 5000mAh
 
-<img width="527" height="318" alt="imagen" src="https://github.com/user-attachments/assets/89f5ab3d-8b37-421e-a707-79ce8adb2ce0" />
+<img width="327" height="118" alt="imagen" src="https://github.com/user-attachments/assets/89f5ab3d-8b37-421e-a707-79ce8adb2ce0" />
 
 
 
