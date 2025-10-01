@@ -23,7 +23,9 @@ The system will be powered from a battery, this battery must be rechargeable and
 
 | Component | Notes | Power Consumption [mA] |
 | :--- | :---: | :---: |
-| ESP32-S3-WROOM-1-N16R2 | Dato 2a | Dato 2a |
-| SSD1306 oled screen 0.96'' | Dato 2b | Dato 2b |
+| ESP32-S3-WROOM-1-N16R2 | Active (RF working) TX 802.11b, 1 Mbps, @20.5 dBm  | 355 |   
+| ESP32-S3-WROOM-1-N16R2 | Active (RF working) RX 802.11n, HT40 | 97 |
+| ESP32-S3-WROOM-1-N16R2 | Modem-Sleep 40MHz Single core running 32-bit data access instructions, the other core in idle state | 21.8 |
+| SSD1306 oled screen 0.96'' | 50% check board operating current | 20 |
 
 
