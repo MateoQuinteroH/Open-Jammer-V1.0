@@ -42,6 +42,6 @@ $\frac{5000mAh}{375mA} = 13.3h$
 
 The block diagram of the power management system is:
 
-<img width="513" height="623" alt="imagen" src="https://github.com/user-attachments/assets/ad784686-7e1c-430b-b2fa-732228324f67" />
+<img width="313" height="423" alt="imagen" src="https://github.com/user-attachments/assets/ad784686-7e1c-430b-b2fa-732228324f67" />
 
 
