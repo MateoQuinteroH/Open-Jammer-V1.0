@@ -54,8 +54,16 @@ The typical application of the MCP73831T-2DCI/OT is the:
 
 <img width="505" height="224" alt="imagen" src="https://github.com/user-attachments/assets/57d6cf3a-31b9-441c-8020-97ad8789fd37" />
 
+
 The battery protection chipis the DW01.
 
 | MPN  | Manufacturer | Package | End-Off Voltage | Voltage - Supply | Supply Current (Iq) | Type of Battery |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | DW01 | HXY MOSFET | SOT23-6 | 2.4V | 1V~5.5V | 1.5uA | Lithium-ion/Polymer |
+
+The typical application of the DW01 is the:
+
+<img width="1632" height="1071" alt="imagen" src="https://github.com/user-attachments/assets/283cd79a-c7d4-4b2d-bc98-37b2b4db7c5d" />
+
+
+
