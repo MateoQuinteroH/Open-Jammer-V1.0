@@ -70,6 +70,12 @@ In this case,for a SOT-23 package $θ_{JA} = 230°C/W$
 
 * $ΔT = 0.65W * 230°C/W = ​149.6°C$
 
+These calculations were made for a charged battery, now the calculations for a discharged battery are done taking $V_{BAT} = 3V$
+
+* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3V) * 500mA = 1W$
+* $ΔT = P_{dissipated} * θ_{JA}​$
+* $ΔT = 1W * 230°C/W = ​230°C$
+
 
 The battery protection chipis the DW01.
 
