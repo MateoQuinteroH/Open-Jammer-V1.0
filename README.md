@@ -54,6 +54,14 @@ The typical application of the MCP73831T-2DCI/OT is the:
 
 <img width="405" height="224" alt="imagen" src="https://github.com/user-attachments/assets/57d6cf3a-31b9-441c-8020-97ad8789fd37" />
 
+For the charge of the battery, a C/10 approach will be chosen. This is to increase battery life and keep the temperature and current in safety levels.
+
+The calculation for the Rprog is as follows wo a charge current of 500mA
+
+$RProg=\frac{1000}{IReg}=\frac{1000}{0.5}=2kΩ$
+
+
+
 
 The battery protection chipis the DW01.
 
