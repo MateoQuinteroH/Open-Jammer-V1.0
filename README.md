@@ -104,5 +104,10 @@ The typical application of the DW01 is the:
 
 <img width="432" height="271" alt="imagen" src="https://github.com/user-attachments/assets/283cd79a-c7d4-4b2d-bc98-37b2b4db7c5d" />
 
+For the transistors Q1 and Q2, the FS8205A:
+
+<img width="634" height="455" alt="image" src="https://github.com/user-attachments/assets/d8620d6f-060f-4507-943b-52af0511799d" />
+
+
 
 
