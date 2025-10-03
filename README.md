@@ -72,9 +72,9 @@ In this case,for a SOT-23 package $θ_{JA} = 230°C/W$
 
 These calculations were made for a charged battery, now the calculations for a discharged battery are done taking $V_{BAT} = 3V$
 
-* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3V) * 250mA = 0.325W$
+* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3.7V) * 500mA = 0.65W$
 * $ΔT = P_{dissipated} * θ_{JA}​$
-* $ΔT = 0.325W * 230°C/W = ​74.75°C$
+* $ΔT = 0.65W * 230°C/W = ​149.5°C$
 
 According to the datasheet, the thermal ranges for this chip are:
 
@@ -82,7 +82,8 @@ According to the datasheet, the thermal ranges for this chip are:
 
 Now, a 250mA charging current is analyzed:
 
-* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3.7V) * 250mA = 0.65W$
+* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3.7V) * 250mA = 0.325W$
+* $ΔT = 0.325W * 230°C/W = ​74.75°C$
 
 The battery protection chipis the DW01.
 
