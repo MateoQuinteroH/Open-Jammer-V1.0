@@ -68,6 +68,8 @@ The input voltage to charge the battery will be taken from USB, so $V_{in} = 5V$
 
 In this case,for a SOT-23 package $θ_{JA} = 230°C/W$
 
+* $ΔT = 0.65W * 230°C/W = ​149.6°C$
+
 
 The battery protection chipis the DW01.
 
