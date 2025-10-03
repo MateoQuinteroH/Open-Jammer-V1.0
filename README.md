@@ -63,8 +63,8 @@ $R_{Prog}=\frac{1000}{I_{Reg}}=\frac{1000}{0.5}=2kΩ$
 Now, the thermal calculations will decide if the chip and current selection are feasible:
 
 The input voltage to charge the battery will be taken from USB, so $V_{in} = 5V$ and the nominal $V_{BAT}$ is 3.7V. with a charging current of 500mA we have
-* $P_{dissipated} = (V_{IN}-V_{BAT}) X I_{CHARGE} = (5V - 3.7V) x 500mA = 0.65W$
-* $ΔT = P_{dissipated} x θ_{JA}​$
+* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3.7V) * 500mA = 0.65W$
+* $ΔT = P_{dissipated} * θ_{JA}​$
 
 In this case,for a SOT-23 package $θ_{JA} = 230°C/W$
 
