@@ -58,7 +58,7 @@ For the charge of the battery, a C/10 approach will be chosen. This is to increa
 
 The calculation for the Rprog is as follows wo a charge current of 500mA
 
-$RProg=\frac{1000}{IReg}=\frac{1000}{0.5}=2kΩ$
+$R_{Prog}=\frac{1000}{I_{Reg}}=\frac{1000}{0.5}=2kΩ$
 
 
 
