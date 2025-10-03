@@ -90,6 +90,10 @@ Now, the temperature when the battery is discharged is calculated:
 * $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3V) * 250mA = 0.5W$
 * $ΔT = 0.325W * 230°C/W = ​115°C$
 
+Now, the $R_{PROG}$ resistance is calculated:
+
+$R_{Prog}=\frac{1000}{I_{Reg}}=\frac{1000}{0.25}=4kΩ$
+
 The battery protection chipis the DW01.
 
 | MPN  | Manufacturer | Package | End-Off Voltage | Voltage - Supply | Supply Current (Iq) | Type of Battery |
