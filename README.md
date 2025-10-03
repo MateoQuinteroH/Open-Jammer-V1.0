@@ -76,6 +76,10 @@ These calculations were made for a charged battery, now the calculations for a d
 * $ΔT = P_{dissipated} * θ_{JA}​$
 * $ΔT = 1W * 230°C/W = ​230°C$
 
+According to the datasheet, the thermal ranges for this chip are:
+
+<img width="2198" height="576" alt="imagen" src="https://github.com/user-attachments/assets/93fd6103-ef6c-439a-a0ce-23dd2af2f3be" />
+
 
 The battery protection chipis the DW01.
 
