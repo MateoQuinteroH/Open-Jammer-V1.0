@@ -85,6 +85,11 @@ Now, a 250mA charging current is analyzed:
 * $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3.7V) * 250mA = 0.325W$
 * $ΔT = 0.325W * 230°C/W = ​74.75°C$
 
+Now, the temperature when the battery is discharged is calculated:
+
+* $P_{dissipated} = (V_{IN}-V_{BAT}) * I_{CHARGE} = (5V - 3V) * 250mA = 0.5W$
+* $ΔT = 0.325W * 230°C/W = ​115°C$
+
 The battery protection chipis the DW01.
 
 | MPN  | Manufacturer | Package | End-Off Voltage | Voltage - Supply | Supply Current (Iq) | Type of Battery |
