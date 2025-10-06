@@ -108,6 +108,7 @@ For the transistors Q1 and Q2, the FS8205A:
 
 <img width="634" height="455" alt="image" src="https://github.com/user-attachments/assets/d8620d6f-060f-4507-943b-52af0511799d" />
 
+## Power Path Management
 
 
 
