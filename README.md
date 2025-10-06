@@ -114,7 +114,7 @@ The power path management (Safe switching between the USB supply and the battery
 
 Below is the typical circuit for this chip:
 
-<img width="1214" height="627" alt="imagen" src="https://github.com/user-attachments/assets/c9bbbdac-3288-449b-a0ae-909ee5f579c5" />
+<img width="1014" height="427" alt="imagen" src="https://github.com/user-attachments/assets/c9bbbdac-3288-449b-a0ae-909ee5f579c5" />
 
 The features of this chip are:
 * Input voltage range: 1.6 V to 5.5 V
