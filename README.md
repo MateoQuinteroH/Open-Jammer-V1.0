@@ -110,5 +110,47 @@ For the transistors Q1 and Q2, the FS8205A:
 
 ## Power Path Management
 
+The power path management (Safe switching between the USB supply and the battery) is implemented using a LM66200DRLR. This step ensures that the battery can be charged while the device is supplied externally.
+
+Below is the typical circuit for this chip:
+
+<img width="1214" height="627" alt="imagen" src="https://github.com/user-attachments/assets/c9bbbdac-3288-449b-a0ae-909ee5f579c5" />
+
+The features of this chip are:
+* Input voltage range: 1.6 V to 5.5 V
+* Maximum continuous current: 2.5 A
+* On-resistance: 40 mΩ (typical)
+* Standby current: 50 nA (typical)
+* Quiescent current: 1.32 μA (typical)
+* Automatic diode switchover
+* Controlled output slew rate: 1.3 ms (typical) at 3.3 V
+* Reverse current blocking when VOUT > VINx
+* Thermal shutdown
+
+The battery is 4.2V and the USB input is 5v. Also, the expected current consumption for the system is < 1A. Therefore the voltage range and the current rating are right.
+
+The thermal analisys is as follows:
+$P_{dissipated} = I^{2}*R_{on}$
+
+for a 0.5A current, the temperature is:
+$P_{dissipated} = (0.5)^{2} * 40 mΩ = 10mW$
+
+for a 1A current, the temperature is:
+$P_{dissipated} = (1)^{2} * 40 mΩ = 40mW$
+
+For the package (SOT-583) we have:
+
+$θ_{JA} = 111.5 °C/W$
+
+$ΔT_{0.5A} = P_{dissipated} * θ_{JA} = 10mW * 111.5 °C/W = 1.11°C$
+
+with an ambient temperature of 25°C we have a $ΔT = 26.11°C$
+
+$ΔT_{1A} = P_{dissipated} * θ_{JA} = 40mW * 111.5 °C/W = °C$
+
+with an ambient temperature of 25°C we have a $ΔT = 4.46°C$
+
+with an ambient temperature of 25°C we have a $ΔT = 29.46°C$
+
 
 
