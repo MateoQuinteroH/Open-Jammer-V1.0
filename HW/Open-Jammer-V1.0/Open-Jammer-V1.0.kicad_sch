@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b23e48e3-251d-4338-80a5-5d786007ffce")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 171.704 47.752)
+		(size 59.182 30.734)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b18012d-69cf-4450-81f4-d4a366708bc9")
+		(property "Sheetname" "Power_Management"
+			(at 171.704 47.0404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Management.kicad_sch"
+			(at 171.704 79.0706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

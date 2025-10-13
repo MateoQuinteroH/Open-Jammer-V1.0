@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Open-Jammer")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Open-Jammer.kicad_sym")(options "")(descr ""))
+)
