@@ -4,45 +4,529 @@
 	(generator_version "9.0")
 	(uuid "b23e48e3-251d-4338-80a5-5d786007ffce")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 91.44 53.34) (xy 83.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2770eeec-09dc-4a5b-ac76-f84dcc49701f")
+	)
+	(wire
+		(pts
+			(xy 83.82 48.26) (xy 83.82 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a5281e5-9889-435c-a38b-f78c93d46764")
+	)
+	(wire
+		(pts
+			(xy 48.26 104.14) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f767d71-dd91-4e96-8de2-06c7d070fb3f")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc36726-4c8e-4dc0-ab05-1c1b9b7513c3")
+	)
+	(wire
+		(pts
+			(xy 50.8 104.14) (xy 48.26 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77159545-6e45-4231-8026-45c30d84433d")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24cc02c-bf6a-4501-a3ce-8d664f9861e2")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "402f6a9e-8dda-499c-b153-0ab97e279e75")
+		(property "Reference" "#PWR08"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 93.98 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 48.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca4876a-e7a4-422f-9439-5f3d561fccd3")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db73a4bb-6510-4584-b645-c6ea009832a4")
+		(property "Reference" "#PWR09"
+			(at 83.82 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00de097f-3b0b-4a96-9b65-610d7b64605b")
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 171.704 47.752)
-		(size 59.182 30.734)
+		(at 91.44 47.752)
+		(size 58.166 30.734)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.508)
 			(type solid)
+			(color 0 0 0 1)
 		)
 		(fill
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1b18012d-69cf-4450-81f4-d4a366708bc9")
 		(property "Sheetname" "Power_Management"
-			(at 171.704 47.0404 0)
+			(at 91.44 46.2276 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "Power_Management.kicad_sch"
-			(at 171.704 79.0706 0)
+			(at 91.44 79.5532 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.032 2.032)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V_USB" input
+			(at 91.44 53.34 180)
+			(uuid "c2c1dd17-de2f-4e27-94b8-952ba379d87b")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left)
 			)
 		)
 		(instances
 			(project "Open-Jammer-V1.0"
 				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 101.6)
+		(size 58.42 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7")
+		(property "Sheetname" "Microcontroller"
+			(at 121.92 100.2534 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 121.92 132.9694 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 121.92 114.3 180)
+			(uuid "d5fc2a00-6351-4b3e-a293-17f25859a0bb")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 121.92 119.38 180)
+			(uuid "0552d3c5-33ab-4fa2-93f1-61ee91d13688")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 101.6)
+		(size 58.42 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7cd4ee2f-3b60-4173-86f6-a748528a6fa6")
+		(property "Sheetname" "USB"
+			(at 76.2 99.06 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 50.8 132.9694 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 109.22 114.3 0)
+			(uuid "776c23a2-55da-429a-8069-f7cbb3a100c0")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 109.22 119.38 0)
+			(uuid "f60507ce-6e47-4124-abc3-7250968d4d92")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_USB" output
+			(at 50.8 104.14 180)
+			(uuid "0862516c-0e5a-4903-abd1-0a08d1f78d7e")
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(page "4")
 				)
 			)
 		)

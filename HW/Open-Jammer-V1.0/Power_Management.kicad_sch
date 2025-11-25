@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "22213687-59fa-408b-b0d4-12a3f616937e")
-	(paper "A5")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603"
 			(pin_numbers
@@ -1387,6 +1387,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Open-Jammer:MC33269DTRK-3.3G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MC33269DTRK-3.3G"
+				(at 10.16 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C179576.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "55dB@(120Hz) Positive Fixed 3.3V DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "C179576"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "MC33269DTRK-3.3G"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "DPAK"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MC33269DTRK-3.3G_1_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND/Adj"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Open-Jammer:MCP73831"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2635,81 +2796,383 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 20.32 40.64)
+		(end 101.6 81.28)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2666522a-a61d-4feb-b6e6-ea3d1932b64a)
+	)
+	(rectangle
+		(start 106.68 40.64)
+		(end 139.7 81.28)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f468d9a-92c6-4775-8718-24202ac583b2)
+	)
+	(rectangle
+		(start 144.78 40.64)
+		(end 200.66 114.3)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41244548-82c3-405f-b961-94105ec764bb)
+	)
+	(rectangle
+		(start 30.48 111.76)
+		(end 91.44 147.32)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6b96f3c9-ad05-4235-87c7-a7244a707117)
+	)
+	(rectangle
+		(start 205.74 40.64)
+		(end 261.62 71.12)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7786aea-018b-4980-8abb-92f640430405)
+	)
+	(text "Power Management"
+		(exclude_from_sim no)
+		(at 152.4 25.4 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 2.032)
+				(bold yes)
+			)
+		)
+		(uuid "0a5dbd41-dc51-4f94-98d5-20193bf856f1")
+	)
+	(text "Battery Protection\n"
+		(exclude_from_sim no)
+		(at 170.18 43.18 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "67abab8e-161a-4a6d-9461-4b825f474373")
+	)
+	(text "3.3V Power Supply"
+		(exclude_from_sim no)
+		(at 233.68 43.18 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "775fa97a-932f-4577-8257-2b7888fb0d95")
+	)
+	(text "Battery Connector"
+		(exclude_from_sim no)
+		(at 124.46 43.18 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c65d4bda-477a-4988-806c-7dba274861c5")
+	)
+	(text "Power Path Dual Diode"
+		(exclude_from_sim no)
+		(at 60.96 116.84 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "d2dc45cf-5254-4796-935f-e63b287189b7")
+	)
+	(text "Charge Management Controller"
+		(exclude_from_sim no)
+		(at 60.96 43.18 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e647b511-9b15-407b-9c84-9ebbe829b533")
+	)
+	(text_box "LM66200DRLR features:\n* Input voltage range: 1.6 V to 5.5 V\n* Maximum continuous current: 2.5 A\n* On-resistance: 40 mΩ (typical)\n* Standby current: 50 nA (typical)\n* Quiescent current: 1.32 μA (typical)\n* Control Pin Voltage: -0.3V ~ 6V\n* RθJA = 111.5 °C/W\n* RON[VINx = 5V IOUT = 200mA] = 37mΩ"
+		(exclude_from_sim yes)
+		(at 30.48 147.32 0)
+		(size 60.96 20.32)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "159d95d0-f5bf-4f79-8612-d23e9ee11220")
+	)
+	(text_box "MCP73831 calculations:\n* Ireg = 1000V/Rprog = 1000/2k = 500mA\n* Pdissipated=(Vin-Vbat)*Icharge=(5v-4.2v)*500mA=0.4W\n* ΔT = 0.4W * 230°C/W = 92°C"
+		(exclude_from_sim yes)
+		(at 20.32 96.52 0)
+		(size 81.28 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "4e5a54f9-d93d-4bae-b873-7e1c86efa5ea")
+	)
+	(text_box "LM66200DRLR calculations:\n"
+		(exclude_from_sim yes)
+		(at 30.48 167.64 0)
+		(size 60.96 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "582b7d66-d5b6-4ade-a8c2-3b6c0a126da6")
+	)
+	(text_box "MCP73831 features:\n* Supply voltage: 3.75V ~ 6V\n* Supply current (charging): 1500uA max\n* UVLO Start Threshold Vstart: 3.3V ~ 3.6V\n* UVLO Stop Threshold Vstop: 3.2V ~ 3.5V\n* Regulated output voltage: 4.168V ~ 4.232 (4.2V typ for MCP7383X-2)\n* RθJA = 230°C/W"
+		(exclude_from_sim yes)
+		(at 20.32 81.28 0)
+		(size 81.28 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "59cb242f-037e-4b33-9d64-bce680d55c98")
+	)
+	(text_box "DW01 features:\n* Overcharge detection voltage[VOCP]:4.250±0.050 V\n* Overcharge release voltage[VOCP]:4.050±0.050 V\n* Overdischarge detection voltage[VODP ]: 2.40±0.1 V\n* Overdischarge release voltage[VODR]: 3.0±0.100 V\n* Overcurrent detection voltage [VOI1]: 150±30 mV"
+		(exclude_from_sim yes)
+		(at 144.78 114.3 0)
+		(size 55.88 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "bd554385-2efa-49cd-b7e4-c382adda3b24")
+	)
+	(text_box "Features:\n* RθJA: 92 °C/W"
+		(exclude_from_sim yes)
+		(at 205.74 71.12 0)
+		(size 55.88 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "c712439f-9a80-4180-a0ff-b92ac944287e")
+	)
+	(text_box "Thermal Calculations for 5V:\n"
+		(exclude_from_sim yes)
+		(at 205.74 86.36 0)
+		(size 55.88 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "cdba4d91-295f-471f-a676-e6236b8a38f4")
+	)
+	(text_box "Thermal Calculations for 3.7V:\n"
+		(exclude_from_sim yes)
+		(at 205.74 101.6 0)
+		(size 55.88 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "fd1c41d9-6508-4fd6-a2ac-ab6e689167a6")
+	)
 	(junction
-		(at 137.16 27.94)
+		(at 154.94 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "098cc286-8ef8-4bad-ad3c-749f003f2518")
 	)
 	(junction
-		(at 137.16 86.36)
+		(at 154.94 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c0b7254-67a3-44e7-8a6e-528db1555f7b")
 	)
 	(junction
-		(at 91.44 73.66)
+		(at 81.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1873ee71-1386-43bd-afac-550fa4390c2e")
 	)
 	(junction
-		(at 50.8 76.2)
+		(at 40.64 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "362270f1-30c5-4f50-968c-a051a3019418")
 	)
 	(junction
-		(at 137.16 48.26)
+		(at 154.94 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b1cc688-106c-4e1a-a4de-3aa81ccbd14b")
 	)
 	(junction
-		(at 27.94 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eb9776b-1312-4228-b883-23f65d65191a")
-	)
-	(junction
-		(at 104.14 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e6443f3-5492-4786-95f4-3c867ffd0210")
-	)
-	(junction
-		(at 40.64 33.02)
+		(at 45.72 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77e3cc98-c18e-4d16-b788-514f6aac3fcb")
 	)
 	(junction
-		(at 104.14 38.1)
+		(at 93.98 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83b42dad-22dc-40cd-bad2-78f5a11feff6")
+	)
+	(junction
+		(at 116.84 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a859b639-33f4-4dba-9694-34f31baa98ec")
 	)
 	(junction
-		(at 137.16 43.18)
+		(at 33.02 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8729111-a188-4a0a-b4c9-55f8950bac50")
+	)
+	(junction
+		(at 154.94 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f34fe0f4-43ed-489d-a7e9-2a9e3d1c9bce")
 	)
 	(junction
-		(at 88.9 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f53f0c18-675e-461e-9adb-df64ac59c2e2")
-	)
-	(junction
-		(at 167.64 86.36)
+		(at 185.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd0064f6-2ed9-4901-8cdd-df14870934fc")
 	)
 	(wire
 		(pts
-			(xy 27.94 40.64) (xy 27.94 43.18)
+			(xy 33.02 63.5) (xy 33.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2719,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 149.86 63.5)
+			(xy 167.64 86.36) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +3192,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 63.5)
+			(xy 165.1 91.44) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +3202,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 40.64) (xy 137.16 43.18)
+			(xy 154.94 66.04) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +3212,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 167.64 50.8)
+			(xy 30.48 55.88) (xy 33.02 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d3aaa5-017b-4d26-854e-fcf04a38e317")
+	)
+	(wire
+		(pts
+			(xy 185.42 83.82) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +3232,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 76.2) (xy 91.44 76.2)
+			(xy 76.2 129.54) (xy 81.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2769,17 +3242,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 104.14 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1aef09d3-9140-4edc-913f-9eeea45d9b12")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 104.14 38.1)
+			(xy 114.3 60.96) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +3252,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 43.18) (xy 78.74 43.18)
+			(xy 213.36 55.88) (xy 218.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2203fc1b-457a-4791-8e34-a4a4e81cec6a")
+	)
+	(wire
+		(pts
+			(xy 78.74 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 147.32 86.36)
+			(xy 154.94 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 83.82) (xy 88.9 83.82)
+			(xy 76.2 137.16) (xy 78.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 33.02) (xy 40.64 35.56)
+			(xy 45.72 55.88) (xy 45.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +3302,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 167.64 86.36)
+			(xy 175.26 111.76) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2839,7 +3312,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 30.48) (xy 104.14 30.48)
+			(xy 114.3 53.34) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +3322,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 157.48 63.5)
+			(xy 175.26 91.44) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 83.82) (xy 88.9 86.36)
+			(xy 78.74 137.16) (xy 78.74 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +3342,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 86.36) (xy 172.72 86.36)
+			(xy 185.42 111.76) (xy 190.5 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +3352,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 43.18) (xy 104.14 38.1)
+			(xy 116.84 66.04) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 147.32 86.36)
+			(xy 165.1 109.22) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +3372,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 38.1) (xy 78.74 35.56)
+			(xy 83.82 60.96) (xy 83.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2909,17 +3382,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 33.02) (xy 27.94 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e325aa2-92ea-439f-8d9f-98b510bb43d8")
-	)
-	(wire
-		(pts
-			(xy 104.14 38.1) (xy 106.68 38.1)
+			(xy 116.84 60.96) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +3392,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 60.96) (xy 154.94 63.5)
+			(xy 172.72 86.36) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 27.94) (xy 137.16 27.94)
+			(xy 149.86 53.34) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 30.48) (xy 137.16 27.94)
+			(xy 154.94 55.88) (xy 154.94 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 33.02) (xy 53.34 33.02)
+			(xy 45.72 55.88) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 33.02) (xy 88.9 33.02)
+			(xy 78.74 55.88) (xy 93.98 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +3442,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 165.1 76.2)
+			(xy 182.88 99.06) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3452,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 137.16 86.36)
+			(xy 149.86 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2999,7 +3462,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 45.72) (xy 81.28 45.72)
+			(xy 83.82 68.58) (xy 86.36 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3009,7 +3472,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 167.64 50.8)
+			(xy 177.8 76.2) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3019,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 40.64) (xy 88.9 43.18)
+			(xy 93.98 63.5) (xy 93.98 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 48.26 43.18)
+			(xy 53.34 78.74) (xy 53.34 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 43.18) (xy 144.78 43.18)
+			(xy 154.94 68.58) (xy 162.56 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3512,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 63.5 86.36)
+			(xy 53.34 137.16) (xy 53.34 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3522,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 35.56) (xy 81.28 35.56)
+			(xy 83.82 58.42) (xy 86.36 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 149.86 63.5)
+			(xy 165.1 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3542,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 55.88) (xy 48.26 55.88)
+			(xy 45.72 78.74) (xy 53.34 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 63.5) (xy 154.94 63.5)
+			(xy 175.26 88.9) (xy 172.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 137.16 86.36)
+			(xy 154.94 73.66) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 104.14 30.48)
+			(xy 116.84 55.88) (xy 116.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 81.28) (xy 66.04 81.28)
+			(xy 53.34 134.62) (xy 55.88 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3592,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 50.8 76.2)
+			(xy 33.02 129.54) (xy 40.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3602,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 68.58) (xy 167.64 86.36)
+			(xy 185.42 93.98) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 33.02) (xy 40.64 33.02)
+			(xy 33.02 55.88) (xy 45.72 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 48.26) (xy 144.78 48.26)
+			(xy 154.94 73.66) (xy 162.56 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 83.82) (xy 63.5 83.82)
+			(xy 55.88 137.16) (xy 53.34 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 40.64 43.18)
+			(xy 45.72 63.5) (xy 45.72 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3652,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 53.34 43.18)
+			(xy 238.76 58.42) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b653ecfe-5e47-4805-92bb-68f53aed064a")
+	)
+	(wire
+		(pts
+			(xy 241.3 60.96) (xy 241.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74b0429-7856-4d18-82cc-da1558b7d5b8")
+	)
+	(wire
+		(pts
+			(xy 53.34 66.04) (xy 58.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3682,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 38.1) (xy 78.74 38.1)
+			(xy 78.74 60.96) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3209,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 50.8 81.28)
+			(xy 43.18 134.62) (xy 40.64 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3702,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 73.66) (xy 66.04 73.66)
+			(xy 33.02 127) (xy 55.88 127)
 		)
 		(stroke
 			(width 0)
@@ -3229,7 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 33.02) (xy 106.68 33.02)
+			(xy 116.84 55.88) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 157.48 86.36)
+			(xy 175.26 109.22) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3732,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 73.66) (xy 91.44 73.66)
+			(xy 76.2 127) (xy 81.28 127)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3742,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 91.44 76.2)
+			(xy 81.28 127) (xy 81.28 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3752,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 27.94) (xy 172.72 27.94)
+			(xy 154.94 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3762,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 165.1 76.2)
+			(xy 180.34 101.6) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3772,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 53.34) (xy 40.64 55.88)
+			(xy 45.72 76.2) (xy 45.72 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3782,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 66.04 76.2)
+			(xy 238.76 55.88) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6caff8-cb8c-4847-8613-6c785fa4c46f")
+	)
+	(wire
+		(pts
+			(xy 40.64 129.54) (xy 55.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3802,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 96.52 73.66)
+			(xy 81.28 127) (xy 86.36 127)
 		)
 		(stroke
 			(width 0)
@@ -3319,7 +3812,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 165.1 73.66)
+			(xy 180.34 99.06) (xy 182.88 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3329,7 +3822,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 76.2) (xy 50.8 81.28)
+			(xy 40.64 129.54) (xy 40.64 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3832,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 35.56) (xy 27.94 33.02)
+			(xy 33.02 58.42) (xy 33.02 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3842,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 88.9 35.56)
+			(xy 93.98 55.88) (xy 93.98 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3852,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 43.18) (xy 78.74 45.72)
+			(xy 93.98 55.88) (xy 96.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f174238c-8975-417a-bd1e-5cc2a27ea8d7")
+	)
+	(wire
+		(pts
+			(xy 83.82 66.04) (xy 83.82 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3367,18 +3870,18 @@
 		)
 		(uuid "f5c1fc0d-0dcc-48b7-b8dd-1a55708c292c")
 	)
-	(label "V_USB"
-		(at 22.86 33.02 0)
+	(label "VIN"
+		(at 213.36 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "10ac6e35-9fa2-4c68-af67-27301390f853")
+		(uuid "01cc035a-1cb0-44af-96a9-273bfe86180b")
 	)
 	(label "B+"
-		(at 132.08 27.94 0)
+		(at 149.86 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,7 +3891,7 @@
 		(uuid "33636c26-c37a-469a-b20b-e27dece9e7ce")
 	)
 	(label "B-"
-		(at 101.6 38.1 0)
+		(at 114.3 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3398,7 +3901,7 @@
 		(uuid "3b0cd589-8a85-41ef-84ae-089ce3de580f")
 	)
 	(label "V_USB"
-		(at 43.18 76.2 0)
+		(at 33.02 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3408,7 +3911,7 @@
 		(uuid "3f2a3c16-30a8-47de-82df-f2ae16acfd5e")
 	)
 	(label "P-"
-		(at 172.72 86.36 0)
+		(at 190.5 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3418,7 +3921,7 @@
 		(uuid "42c3410f-1d3c-4bc5-97f3-1df9fa5f2cf3")
 	)
 	(label "B+"
-		(at 101.6 30.48 0)
+		(at 114.3 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3428,7 +3931,7 @@
 		(uuid "69fe0039-cfb0-4898-a5da-f6ce58074161")
 	)
 	(label "VIN"
-		(at 96.52 73.66 0)
+		(at 86.36 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3438,7 +3941,7 @@
 		(uuid "886b0897-c399-4214-b0e9-b603139abe70")
 	)
 	(label "P+"
-		(at 172.72 27.94 0)
+		(at 190.5 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3448,7 +3951,17 @@
 		(uuid "996c5a50-d2aa-428a-975c-bb5c67a190ee")
 	)
 	(label "B+"
-		(at 43.18 73.66 0)
+		(at 96.52 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5b88636-cfc1-459b-a2eb-926a28e3dc62")
+	)
+	(label "B+"
+		(at 33.02 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3458,7 +3971,7 @@
 		(uuid "c794e795-65df-4da2-8ac0-36160a25e1f9")
 	)
 	(label "B-"
-		(at 132.08 86.36 0)
+		(at 149.86 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3467,9 +3980,31 @@
 		)
 		(uuid "e3ce1286-08be-453f-9691-474a88c1bf94")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 251.46 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21726929-6af8-418f-917e-71a735335fdc")
+	)
+	(hierarchical_label "5V_USB"
+		(shape input)
+		(at 30.48 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e86d2a9-576a-4a32-8fb8-78838a7ae16c")
+	)
 	(symbol
 		(lib_id "Open-Jammer:JST_2P_SMT_connector")
-		(at 109.22 35.56 0)
+		(at 121.92 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3478,7 +4013,7 @@
 		(dnp no)
 		(uuid "086d37d9-bca6-46a5-b078-8d61cbf02a81")
 		(property "Reference" "J1"
-			(at 114.3 33.02 0)
+			(at 127 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +4022,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 96.52 25.4 0)
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +4031,7 @@
 			)
 		)
 		(property "Footprint" "Open-Jammer:JST_S2B-PH-SM4-TB_LF__SN_"
-			(at 111.76 60.96 0)
+			(at 124.46 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +4040,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C295747.pdf"
-			(at 109.22 43.18 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +4049,7 @@
 			)
 		)
 		(property "Description" "2P 1x2P PH Tin -25℃~+85℃ Beige 2mm 100V 2 2A 1 Surface Mount, Right Angle SMD,P=2mm,Surface Mount,Right Angle Headers, Male Pins ROHS"
-			(at 109.22 50.8 0)
+			(at 121.92 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +4058,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 109.22 53.34 0)
+			(at 121.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +4067,7 @@
 			)
 		)
 		(property "SPN" "C295747"
-			(at 111.76 48.26 0)
+			(at 124.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +4076,7 @@
 			)
 		)
 		(property "Manufacturer " "JST"
-			(at 109.22 55.88 0)
+			(at 121.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +4085,7 @@
 			)
 		)
 		(property "MPN" "S2B-PH-SM4-TB(LF)(SN)"
-			(at 109.22 58.42 0)
+			(at 121.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +4094,7 @@
 			)
 		)
 		(property "Package" "SMD,P=2mm,Surface Mount,Right Angle"
-			(at 109.22 45.72 0)
+			(at 121.92 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,7 +4119,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603")
-		(at 137.16 45.72 90)
+		(at 154.94 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3592,7 +4127,7 @@
 		(dnp no)
 		(uuid "1d5120bc-6d88-4f3f-bf1a-f450233dc07f")
 		(property "Reference" "C3"
-			(at 132.08 45.72 90)
+			(at 149.86 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +4136,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 129.54 48.26 90)
+			(at 147.32 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +4145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 45.72 0)
+			(at 154.94 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +4154,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C108079.pdf"
-			(at 149.86 45.72 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +4163,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0603 Ceramic Capacitors ROHS"
-			(at 144.78 45.72 0)
+			(at 162.56 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +4172,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.4 45.72 0)
+			(at 170.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3646,7 +4181,7 @@
 			)
 		)
 		(property "SPN" "C108079"
-			(at 142.24 45.72 0)
+			(at 160.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,7 +4190,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 154.94 45.72 0)
+			(at 172.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3664,7 +4199,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R7BB104"
-			(at 147.32 45.72 0)
+			(at 165.1 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +4208,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 157.48 45.72 0)
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3698,7 +4233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 86.36 0)
+		(at 53.34 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3707,7 +4242,7 @@
 		(fields_autoplaced yes)
 		(uuid "29235f89-986c-4e87-a437-e5c9b2238c1b")
 		(property "Reference" "#PWR05"
-			(at 63.5 92.71 0)
+			(at 53.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +4251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 91.44 0)
+			(at 53.34 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +4259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 86.36 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 86.36 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +4277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 86.36 0)
+			(at 53.34 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3764,7 +4299,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:RES_470_1%_100mW_0603")
-		(at 40.64 48.26 90)
+		(at 45.72 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3773,7 +4308,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c594a69-d459-443a-86d4-96ccbff51efb")
 		(property "Reference" "R2"
-			(at 43.18 47.6249 90)
+			(at 48.26 70.4849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3782,7 +4317,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 43.18 49.53 90)
+			(at 48.26 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3791,7 +4326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 48.26 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +4335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 48.26 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +4344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 48.26 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +4369,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:RES_4K_1%_152mW_0805")
-		(at 81.28 40.64 90)
+		(at 86.36 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3842,7 +4377,7 @@
 		(dnp no)
 		(uuid "334fd698-aa1e-4060-bbc7-5fbc8c638ecc")
 		(property "Reference" "R1"
-			(at 78.74 38.1 90)
+			(at 83.82 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +4386,7 @@
 			)
 		)
 		(property "Value" "4k"
-			(at 76.2 40.64 90)
+			(at 81.28 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +4395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 40.64 0)
+			(at 86.36 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2828855.pdf"
-			(at 86.36 40.64 0)
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +4413,7 @@
 			)
 		)
 		(property "Description" "125mW 4kΩ 150V ±25ppm/℃ Thin Film Resistor ±1% 0805 Chip Resistor - Surface Mount ROHS"
-			(at 83.82 40.64 0)
+			(at 88.9 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +4422,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 96.52 40.64 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4431,7 @@
 			)
 		)
 		(property "SPN" "C2828855"
-			(at 88.9 40.64 0)
+			(at 93.98 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +4440,7 @@
 			)
 		)
 		(property "Manufacturer" "Viking"
-			(at 99.06 40.64 0)
+			(at 104.14 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4449,7 @@
 			)
 		)
 		(property "MPN" "ARG05FTC4001N"
-			(at 93.98 40.64 0)
+			(at 99.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +4458,7 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 91.44 40.64 0)
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +4483,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 43.18 0)
+		(at 33.02 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3957,7 +4492,7 @@
 		(fields_autoplaced yes)
 		(uuid "5d0a1c98-e5a7-4502-b5f7-b9f273edd21f")
 		(property "Reference" "#PWR01"
-			(at 27.94 49.53 0)
+			(at 33.02 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +4501,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 48.26 0)
+			(at 33.02 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3974,7 +4509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 43.18 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,7 +4518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 43.18 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 43.18 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,35 +4548,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Open-Jammer:RES_100_1%_100mW_0603")
-		(at 137.16 35.56 90)
+		(lib_id "Open-Jammer:MC33269DTRK-3.3G")
+		(at 228.6 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "700e0c3c-4b5e-495a-b44a-7b14498cea17")
-		(property "Reference" "R3"
-			(at 139.7 34.2899 90)
+		(uuid "6dce0079-8d7a-4a2a-b9e4-b37a4dbbaf03")
+		(property "Reference" "U6"
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "100"
-			(at 139.7 36.8299 90)
+		(property "Value" "MC33269DTRK-3.3G"
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 35.56 0)
+			(at 228.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4049,8 +4582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105588.pdf"
-			(at 144.78 35.56 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C179576.pdf"
+			(at 228.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,8 +4591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100mW 100Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
-			(at 147.32 35.56 0)
+		(property "Description" "55dB@(120Hz) Positive Fixed 3.3V DPAK Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+			(at 228.6 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4601,125 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.4 35.56 0)
+			(at 228.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C179576"
+			(at 228.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 228.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MC33269DTRK-3.3G"
+			(at 228.6 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "DPAK"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "503e51a7-4783-44f5-99d4-ee4f1ef50e5c")
+		)
+		(pin "2"
+			(uuid "145fac8d-7b70-408a-8aa1-e4ec559ca67a")
+		)
+		(pin "3"
+			(uuid "a79e0447-523e-4df3-88d9-1e42605b1668")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/1b18012d-69cf-4450-81f4-d4a366708bc9"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:RES_100_1%_100mW_0603")
+		(at 154.94 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "700e0c3c-4b5e-495a-b44a-7b14498cea17")
+		(property "Reference" "R3"
+			(at 157.48 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100"
+			(at 157.48 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105588.pdf"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100mW 100Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 170.18 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4728,7 @@
 			)
 		)
 		(property "SPN" "C105588"
-			(at 142.24 35.56 0)
+			(at 160.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4737,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 139.7 35.56 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4746,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07100RL"
-			(at 154.94 35.56 0)
+			(at 172.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4755,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 149.86 35.56 0)
+			(at 167.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4780,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:DW01")
-		(at 152.4 55.88 0)
+		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4137,7 +4788,7 @@
 		(dnp no)
 		(uuid "7b7394bf-1182-4265-b7ab-0ebaa29cc6f5")
 		(property "Reference" "U2"
-			(at 149.86 38.1 0)
+			(at 167.64 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4796,7 @@
 			)
 		)
 		(property "Value" "DW01"
-			(at 154.94 38.1 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4153,7 +4804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 55.88 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4813,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/learn_tutorials/2/5/1/DW01-P_DataSheet_V10.pdf"
-			(at 152.4 76.2 0)
+			(at 170.18 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4171,7 +4822,7 @@
 			)
 		)
 		(property "Description" "Lithium Battery 1 SOT-23-6 Battery Management ROHS"
-			(at 152.4 68.58 0)
+			(at 170.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4831,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.4 81.28 0)
+			(at 170.18 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4840,7 @@
 			)
 		)
 		(property "SPN" "C18212691"
-			(at 152.4 78.74 0)
+			(at 170.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4849,7 @@
 			)
 		)
 		(property "Manufacturer" "TECH PUBLIC"
-			(at 152.4 73.66 0)
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4858,7 @@
 			)
 		)
 		(property "MPN" "DW01"
-			(at 152.4 55.88 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4867,7 @@
 			)
 		)
 		(property "Package" "SOT-23-6"
-			(at 152.4 71.12 0)
+			(at 170.18 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4253,7 +4904,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:LED_RED_2.3V_0603_120°")
-		(at 40.64 38.1 270)
+		(at 45.72 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4262,7 +4913,7 @@
 		(fields_autoplaced yes)
 		(uuid "8340f0f2-2367-4ac2-8b13-68b2d0b4a4f1")
 		(property "Reference" "D1"
-			(at 44.45 38.4174 90)
+			(at 49.53 61.2774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4271,7 +4922,7 @@
 			)
 		)
 		(property "Value" "Led Red"
-			(at 44.45 40.9574 90)
+			(at 49.53 63.8174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,7 +4931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 38.1 0)
+			(at 45.72 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4940,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C965799.pdf"
-			(at 30.48 38.1 0)
+			(at 35.56 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4949,7 @@
 			)
 		)
 		(property "Description" "20mA 2.3V Red 50mW 0603 LED Indication - Discrete ROHS"
-			(at 35.56 38.1 0)
+			(at 40.64 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4958,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 25.4 38.1 0)
+			(at 30.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4967,7 @@
 			)
 		)
 		(property "SPN" "C965799"
-			(at 38.1 38.1 0)
+			(at 43.18 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4976,7 @@
 			)
 		)
 		(property "Manufacturer" "XINGLIGHT"
-			(at 33.02 38.1 0)
+			(at 38.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4985,7 @@
 			)
 		)
 		(property "MPN" "XL-1608SURC-06"
-			(at 27.94 38.1 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,7 +4994,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 22.86 38.1 0)
+			(at 27.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +5019,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:FS8205A")
-		(at 152.4 73.66 0)
+		(at 170.18 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4376,7 +5027,7 @@
 		(dnp no)
 		(uuid "86fec190-58c7-4043-8d85-d543d9a2878b")
 		(property "Reference" "U3"
-			(at 149.86 66.04 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +5036,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at 139.7 66.04 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4394,7 +5045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 73.66 0)
+			(at 170.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4403,7 +5054,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010271837_FUXINSEMI-FS8205A_C908265.pdf"
-			(at 152.4 91.44 0)
+			(at 170.18 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +5063,7 @@
 			)
 		)
 		(property "Description" "20V 9A 31.5mΩ@2.5V 1.5W 1.2V@250uA SOT-23-6 Single FETs, MOSFETs ROHS"
-			(at 152.4 93.98 0)
+			(at 170.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +5072,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 152.4 99.06 0)
+			(at 170.18 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +5081,7 @@
 			)
 		)
 		(property "SPN" "C2830320"
-			(at 152.4 96.52 0)
+			(at 170.18 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +5090,7 @@
 			)
 		)
 		(property "Manufacturer" "FS8205A"
-			(at 152.4 101.6 0)
+			(at 170.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +5099,7 @@
 			)
 		)
 		(property "MPN" "FS8205A"
-			(at 152.4 106.68 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +5108,7 @@
 			)
 		)
 		(property "Package" "SOT-23-6"
-			(at 152.4 104.14 0)
+			(at 170.18 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +5145,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 43.18 0)
+		(at 116.84 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4503,7 +5154,7 @@
 		(fields_autoplaced yes)
 		(uuid "930f783b-4b8d-45f9-93f9-7640efcada3c")
 		(property "Reference" "#PWR03"
-			(at 104.14 49.53 0)
+			(at 116.84 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4512,7 +5163,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 48.26 0)
+			(at 116.84 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +5171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 43.18 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +5180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 43.18 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +5189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 43.18 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4560,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:RES_1k_1%_100mW_0603")
-		(at 167.64 63.5 90)
+		(at 185.42 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4569,7 +5220,7 @@
 		(fields_autoplaced yes)
 		(uuid "985126fc-8c8a-4535-9fbe-e4f094902bc5")
 		(property "Reference" "R4"
-			(at 170.18 62.2299 90)
+			(at 187.96 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +5229,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 170.18 64.7699 90)
+			(at 187.96 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +5238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 63.5 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4596,7 +5247,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C22548.pdf"
-			(at 175.26 63.5 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +5256,7 @@
 			)
 		)
 		(property "Description" "100mW 1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
-			(at 177.8 63.5 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +5265,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 182.88 63.5 0)
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +5274,7 @@
 			)
 		)
 		(property "SPN" "C22548"
-			(at 172.72 63.5 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +5283,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 170.18 63.5 0)
+			(at 187.96 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +5292,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 185.42 63.5 0)
+			(at 203.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +5301,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 180.34 63.5 0)
+			(at 198.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +5326,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:RES_10k_1%_100mW_0603")
-		(at 58.42 81.28 0)
+		(at 48.26 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4683,7 +5334,7 @@
 		(dnp no)
 		(uuid "a137897b-11c1-43f3-9d8f-13aaaa1c595c")
 		(property "Reference" "R5"
-			(at 55.88 78.74 0)
+			(at 45.72 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +5342,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 60.96 78.74 0)
+			(at 50.8 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4699,7 +5350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 81.28 0)
+			(at 48.26 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4708,7 +5359,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
-			(at 58.42 88.9 0)
+			(at 48.26 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4717,7 +5368,7 @@
 			)
 		)
 		(property "Description" "100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
-			(at 58.42 91.44 0)
+			(at 48.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +5377,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 58.42 83.82 0)
+			(at 48.26 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +5386,7 @@
 			)
 		)
 		(property "SPN" "C98220"
-			(at 58.42 93.98 0)
+			(at 48.26 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +5395,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 58.42 86.36 0)
+			(at 48.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +5404,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 58.42 96.52 0)
+			(at 48.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +5413,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 58.42 99.06 0)
+			(at 48.26 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +5438,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:MCP73831")
-		(at 63.5 38.1 0)
+		(at 68.58 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +5447,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8aa9ad6-fce4-4703-9494-e0ae6cc72374")
 		(property "Reference" "U1"
-			(at 63.5 25.4 0)
+			(at 68.58 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5455,7 @@
 			)
 		)
 		(property "Value" "MCP73831"
-			(at 63.5 27.94 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 38.1 0)
+			(at 68.58 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,7 +5472,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf"
-			(at 66.04 50.8 0)
+			(at 71.12 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +5481,7 @@
 			)
 		)
 		(property "Description" "Miniature Single-Cell, Fully Integrated Li-Ion, Li-Polymer Charge Management Controllers"
-			(at 63.5 48.26 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +5490,7 @@
 			)
 		)
 		(property "SPN" "C625597"
-			(at 63.5 60.96 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +5499,7 @@
 			)
 		)
 		(property "Suppliers" "LCSC"
-			(at 63.5 55.88 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5508,7 @@
 			)
 		)
 		(property "Manufacturer" "MICROCHIP"
-			(at 63.5 58.42 0)
+			(at 68.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4866,7 +5517,7 @@
 			)
 		)
 		(property "MPN" "MCP73831T-2DCI/OT"
-			(at 63.5 53.34 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +5526,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5"
-			(at 63.5 63.5 0)
+			(at 68.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:LM66200")
-		(at 76.2 78.74 0)
+		(at 66.04 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4918,7 +5569,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb97150a-1e11-40b5-bcea-1cbcfa3bfaf2")
 		(property "Reference" "U4"
-			(at 76.2 66.04 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4926,7 +5577,7 @@
 			)
 		)
 		(property "Value" "LM66200DRLR"
-			(at 76.2 68.58 0)
+			(at 66.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 78.74 0)
+			(at 66.04 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +5594,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm66200.pdf?ts=1760238246891&ref_url=https%253A%252F%252Fwww.google.com%252F"
-			(at 76.2 88.9 0)
+			(at 66.04 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5603,7 @@
 			)
 		)
 		(property "Description" "1.6V to 5V, 2.5A dual ideal diodes with automatic switching function"
-			(at 76.2 104.14 0)
+			(at 66.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5612,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 76.2 96.52 0)
+			(at 66.04 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4970,7 +5621,7 @@
 			)
 		)
 		(property "SPN" "C3235556"
-			(at 76.2 99.06 0)
+			(at 66.04 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4979,7 +5630,7 @@
 			)
 		)
 		(property "Manufacturer" "TI"
-			(at 76.2 91.44 0)
+			(at 66.04 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,7 +5639,7 @@
 			)
 		)
 		(property "MPN" "LM66200DRLR"
-			(at 76.2 101.6 0)
+			(at 66.04 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5648,7 @@
 			)
 		)
 		(property "Package" "SOT-583"
-			(at 76.2 93.98 0)
+			(at 66.04 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5037,7 +5688,7 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:CAP_4.7u_10%_X5R_10V_0603")
-		(at 27.94 38.1 90)
+		(at 33.02 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,7 +5697,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf14fa96-5fc6-4ec8-aab0-95d1e0afd510")
 		(property "Reference" "C2"
-			(at 31.75 36.8299 90)
+			(at 36.83 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +5706,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 31.75 39.3699 90)
+			(at 36.83 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 38.1 0)
+			(at 33.02 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5724,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C109456.pdf"
-			(at 36.83 38.1 0)
+			(at 41.91 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5733,7 @@
 			)
 		)
 		(property "Description" "10V 4.7uF X5R ±10% 0603 Ceramic Capacitors ROHS"
-			(at 31.75 38.1 0)
+			(at 36.83 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5742,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 34.29 38.1 0)
+			(at 39.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5751,7 @@
 			)
 		)
 		(property "SPN" "C109456"
-			(at 41.91 38.1 0)
+			(at 46.99 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5760,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 44.45 38.1 0)
+			(at 49.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5769,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX5R6BB475"
-			(at 39.37 38.1 0)
+			(at 44.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5778,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 46.99 38.1 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5803,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 86.36 0)
+		(at 78.74 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5161,7 +5812,7 @@
 		(fields_autoplaced yes)
 		(uuid "e563aa16-f36d-4646-bde7-ed6a0c51ca51")
 		(property "Reference" "#PWR04"
-			(at 88.9 92.71 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5821,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 91.44 0)
+			(at 78.74 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +5829,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 86.36 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 86.36 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5847,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 86.36 0)
+			(at 78.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5869,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 43.18 0)
+		(at 93.98 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5227,7 +5878,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7957bb4-0ba5-4781-9360-37ebc36074af")
 		(property "Reference" "#PWR02"
-			(at 88.9 49.53 0)
+			(at 93.98 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5236,7 +5887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 48.26 0)
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +5895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 43.18 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 43.18 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5262,7 +5913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 43.18 0)
+			(at 93.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,16 +5935,15 @@
 	)
 	(symbol
 		(lib_id "Open-Jammer:CAP_4.7u_10%_X5R_10V_0603")
-		(at 88.9 38.1 90)
+		(at 93.98 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f1fda7f9-cd29-41f7-a0e5-8342e535fa09")
 		(property "Reference" "C1"
-			(at 92.71 36.8299 90)
+			(at 93.98 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5952,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 92.71 39.3699 90)
+			(at 93.98 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 38.1 0)
+			(at 93.98 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C109456.pdf"
-			(at 97.79 38.1 0)
+			(at 102.87 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5979,7 @@
 			)
 		)
 		(property "Description" "10V 4.7uF X5R ±10% 0603 Ceramic Capacitors ROHS"
-			(at 92.71 38.1 0)
+			(at 97.79 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5988,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 95.25 38.1 0)
+			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5997,7 @@
 			)
 		)
 		(property "SPN" "C109456"
-			(at 102.87 38.1 0)
+			(at 107.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +6006,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 105.41 38.1 0)
+			(at 110.49 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +6015,7 @@
 			)
 		)
 		(property "MPN" "CC0603KRX5R6BB475"
-			(at 100.33 38.1 0)
+			(at 105.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +6024,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 107.95 38.1 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,6 +6042,72 @@
 			(project ""
 				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/1b18012d-69cf-4450-81f4-d4a366708bc9"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe94ce6a-1cec-46bb-a004-71fc1b7e1de5")
+		(property "Reference" "#PWR012"
+			(at 241.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12b0a9d3-3589-4405-9ba3-8d8ef6a8acf1")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/1b18012d-69cf-4450-81f4-d4a366708bc9"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-25210717485047421
+25214239891102289
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69580,12 +69580,26 @@ net tie
 4
 4
 Open-Jammer
+HRO_TYPE-C-31-M-12
+
+
+0
+16
+16
+Open-Jammer
 JST_S2B-PH-SM4-TB_LF__SN_
 
 
 0
 4
 4
+Open-Jammer
+XCVR_ESP32-S3-WROOM-1-N16R2
+
+
+0
+61
+61
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800

@@ -419,6 +419,14 @@
     [
       "1b18012d-69cf-4450-81f4-d4a366708bc9",
       "Power_Management"
+    ],
+    [
+      "4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7",
+      "Microcontroller"
+    ],
+    [
+      "7cd4ee2f-3b60-4173-86f6-a748528a6fa6",
+      "USB"
     ]
   ],
   "text_variables": {}
