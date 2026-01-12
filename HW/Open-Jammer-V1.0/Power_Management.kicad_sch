@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "22213687-59fa-408b-b0d4-12a3f616937e")
 	(paper "A4")
+	(title_block
+		(title "Oper Jammer V1R0")
+		(rev "V1R0")
+	)
 	(lib_symbols
 		(symbol "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603"
 			(pin_numbers

@@ -4,7 +4,387 @@
 	(generator_version "9.0")
 	(uuid "267e6b6a-a270-4e35-beca-1f04a78b99a5")
 	(paper "A4")
+	(title_block
+		(title "Oper Jammer V1R0")
+		(rev "V1R0")
+	)
 	(lib_symbols
+		(symbol "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.1u"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C108079.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V 100nF X7R ±10% 0603 Ceramic Capacitors ROHS"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "C108079"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CC0603KRX7R7BB104"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_0.1u_10%_X7R_16V_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_0.1u_10%_X7R_16V_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Open-Jammer:CAP_10u_20%_X5R_25V_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u"
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C91606.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF ±20% 25V Ceramic Capacitor X5R 0603"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "C91606"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "muRata"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM188R61E106MA73D"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_10u_20%_X5R_25V_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.762 2.032)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_10u_20%_X5R_25V_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Open-Jammer:ESP32-S3-WROOM-1-N16R2"
 			(pin_names
 				(offset 1.016)
@@ -1002,6 +1382,261 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Open-Jammer:TACTILE_SWITCH_SPST_SMD"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TS-1109S-A-C"
+				(at 10.668 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Open-Jammer:TACTILE_SWITCH_SMD"
+				(at 0 -17.018 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2885142.pdf"
+				(at 0 -8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switch SPST 100gf 4.5mm Gull Wing 4.5mm x 4.5mm Surface Mount"
+				(at 0 -11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "XKB Connection"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "TS-1109S-A-C"
+				(at 0.254 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SPN" "C2885142"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4P,4.5x4.5mm"
+				(at 0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TACTILE_SWITCH_SPST_SMD_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TACTILE_SWITCH_SPST_SMD_1_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -1.016)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1104,69 +1739,212 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 63.5 58.42)
+		(end 109.22 96.52)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a8ce6c5-3d30-412e-a7ce-3e51c08c3fea)
+	)
+	(rectangle
+		(start 63.5 97.79)
+		(end 109.22 124.46)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8501af6-526c-444d-917d-a93c1c59f612)
+	)
+	(text "ESP32 S3 WROOM"
+		(exclude_from_sim no)
+		(at 166.37 33.528 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "4c11d83b-b426-413f-9c6b-57e8ae7e4c0d")
+	)
+	(text "BOOTLOADER SWITCH\n"
+		(exclude_from_sim no)
+		(at 86.36 60.452 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "596924a8-ff70-4040-a741-91ed3dca8302")
+	)
+	(text "RESET SWITCH\n"
+		(exclude_from_sim no)
+		(at 87.122 99.822 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+			)
+		)
+		(uuid "a5a9ec3f-fe37-46e2-b1dd-0472ae6ddc25")
+	)
+	(text_box "When this switch is pressed during reset, the microcontroller enters in flash mode to write code in flash"
+		(exclude_from_sim no)
+		(at 86.36 76.2 0)
+		(size 17.78 17.78)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 255 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cbfa051f-e100-4398-afc2-5cf7b48d7fb4")
+	)
 	(junction
-		(at 144.78 119.38)
+		(at 69.85 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "047c17af-80df-498b-89bc-1c1f2fd1c093")
+	)
+	(junction
+		(at 187.96 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04fae3e4-273a-4c08-a3b6-c93111e978a7")
 	)
 	(junction
-		(at 144.78 111.76)
+		(at 187.96 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06e32bc7-b912-4ff5-be52-845b903d0cf4")
 	)
 	(junction
-		(at 144.78 116.84)
+		(at 88.9 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "102568ef-5554-4096-bf34-39d1eb78adea")
+	)
+	(junction
+		(at 187.96 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "219991fd-1417-43cd-91c3-aff8729ffb54")
 	)
 	(junction
-		(at 144.78 106.68)
+		(at 66.04 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24982ad0-b804-4dea-bb55-8f1a94ee0baf")
+	)
+	(junction
+		(at 187.96 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d907fcd-98ae-4044-ae94-1d7e26130aca")
 	)
 	(junction
-		(at 144.78 99.06)
+		(at 187.96 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ea75be6-b8b4-4a4f-ba51-ef2dbd1f15f7")
 	)
 	(junction
-		(at 144.78 109.22)
+		(at 85.09 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60eadd19-e51a-4c8c-8ca8-ac05feea877b")
+	)
+	(junction
+		(at 187.96 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7284a78b-7bf5-432d-bda2-b37b3686ea5e")
 	)
 	(junction
-		(at 144.78 114.3)
+		(at 208.28 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f3c752-4050-42de-bae5-8aec4a231658")
+	)
+	(junction
+		(at 187.96 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf18ed60-4f82-4bfb-8043-88e9e8c9add3")
 	)
 	(junction
-		(at 144.78 96.52)
+		(at 187.96 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc85ecc5-cd4f-4946-a5fd-4d80b01f2f37")
 	)
 	(junction
-		(at 144.78 104.14)
+		(at 187.96 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfc6cdce-2f83-446c-9b60-7b1987f03c95")
 	)
 	(junction
-		(at 144.78 101.6)
+		(at 187.96 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb792bf3-e81f-49ea-a3c4-f034dfccd76f")
 	)
+	(junction
+		(at 201.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f83b03-44de-46b4-ab9e-a121b260c3ec")
+	)
+	(no_connect
+		(at 86.36 67.31)
+		(uuid "1b8b00d4-516b-4f66-bf98-d5d72e3b26ad")
+	)
+	(no_connect
+		(at 74.93 111.76)
+		(uuid "a83161d4-2f56-4b4e-a63c-8842bcd02d77")
+	)
+	(no_connect
+		(at 90.17 106.68)
+		(uuid "e6bd2485-55d9-496f-a467-7d01e4d74fb2")
+	)
+	(no_connect
+		(at 71.12 72.39)
+		(uuid "f140c6e7-ca15-4808-9a97-807e10603774")
+	)
 	(wire
 		(pts
-			(xy 142.24 109.22) (xy 144.78 109.22)
+			(xy 201.93 50.8) (xy 201.93 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b82de1-e457-4c82-abdb-5868e430be9c")
+	)
+	(wire
+		(pts
+			(xy 185.42 116.84) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1954,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 111.76) (xy 144.78 111.76)
+			(xy 185.42 119.38) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1186,7 +1964,47 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 116.84) (xy 144.78 119.38)
+			(xy 83.82 67.31) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139955be-a59a-49ea-98b5-a182cc0bfb80")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 208.28 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1517f881-3e31-4d6a-b0c9-4a927fa36668")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ca9ea1-07e7-471b-ad3d-88075546563d")
+	)
+	(wire
+		(pts
+			(xy 201.93 58.42) (xy 201.93 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18019a5c-c6d3-4c55-961e-45ac6d6fe6d1")
+	)
+	(wire
+		(pts
+			(xy 187.96 124.46) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +2014,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 144.78 99.06)
+			(xy 88.9 111.76) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f0580b3-9671-479b-8ac6-09714c39ba0a")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +2034,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 119.38) (xy 144.78 119.38)
+			(xy 87.63 111.76) (xy 88.9 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20098820-7047-4c00-b990-ec6602f71983")
+	)
+	(wire
+		(pts
+			(xy 185.42 127) (xy 187.96 127)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +2054,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 144.78 114.3)
+			(xy 185.42 121.92) (xy 187.96 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1226,7 +2064,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 144.78 106.68)
+			(xy 187.96 111.76) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1236,7 +2074,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 144.78 93.98)
+			(xy 185.42 101.6) (xy 187.96 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1246,7 +2084,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 101.6) (xy 144.78 104.14)
+			(xy 187.96 109.22) (xy 187.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1256,7 +2094,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 109.22) (xy 144.78 111.76)
+			(xy 187.96 116.84) (xy 187.96 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1266,7 +2104,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 144.78 104.14)
+			(xy 185.42 111.76) (xy 187.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1276,7 +2114,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 144.78 96.52)
+			(xy 88.9 111.76) (xy 90.17 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c79f012-1e2e-4ce2-8bcb-ab365ae2c448")
+	)
+	(wire
+		(pts
+			(xy 187.96 101.6) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1286,7 +2134,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 58.42) (xy 144.78 58.42)
+			(xy 66.04 67.31) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55997817-c664-45fc-af58-e50cf4ea40ae")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.31) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584b1f1c-7344-469c-9605-699bde3ddb44")
+	)
+	(wire
+		(pts
+			(xy 185.42 66.04) (xy 187.96 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1296,7 +2164,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 114.3) (xy 144.78 116.84)
+			(xy 187.96 121.92) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1306,7 +2174,37 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 96.52) (xy 144.78 96.52)
+			(xy 201.93 50.8) (xy 208.28 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c18d76-4c6c-4bc0-b376-595ce07df404")
+	)
+	(wire
+		(pts
+			(xy 87.63 106.68) (xy 90.17 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4af718-7c2c-4e1d-a56c-41b37575021a")
+	)
+	(wire
+		(pts
+			(xy 83.82 72.39) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b222dc3-47bd-4bfd-87b4-d9f92916504a")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1316,7 +2214,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 144.78 106.68)
+			(xy 85.09 72.39) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8012ee6d-1793-4df1-bc57-ccb3187beb30")
+	)
+	(wire
+		(pts
+			(xy 85.09 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80686339-f6bf-4c54-8879-98e21ad7f2e6")
+	)
+	(wire
+		(pts
+			(xy 185.42 114.3) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1326,7 +2244,27 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 111.76) (xy 144.78 114.3)
+			(xy 71.12 72.39) (xy 73.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "885642f3-a2e4-46b2-8585-336a8cc596be")
+	)
+	(wire
+		(pts
+			(xy 69.85 116.84) (xy 80.01 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5f1852-ef01-42be-ae24-88ce6bf0e635")
+	)
+	(wire
+		(pts
+			(xy 187.96 119.38) (xy 187.96 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1336,7 +2274,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 116.84) (xy 144.78 116.84)
+			(xy 69.85 116.84) (xy 69.85 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbded77-f762-49bb-b983-eaa35c55ea37")
+	)
+	(wire
+		(pts
+			(xy 85.09 116.84) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db480f6-1b7e-4bd2-872f-9e41b28a6e4c")
+	)
+	(wire
+		(pts
+			(xy 185.42 124.46) (xy 187.96 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1346,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 119.38) (xy 144.78 121.92)
+			(xy 187.96 127) (xy 187.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +2314,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 101.6) (xy 144.78 101.6)
+			(xy 185.42 109.22) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1366,7 +2324,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 99.06) (xy 144.78 101.6)
+			(xy 69.85 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a260e0d0-d5e8-498e-a04f-667d6377e15f")
+	)
+	(wire
+		(pts
+			(xy 187.96 106.68) (xy 187.96 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1376,7 +2344,37 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 55.88) (xy 142.24 55.88)
+			(xy 81.28 77.47) (xy 85.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a8d8f0-5660-46aa-b09d-5c44c65b0db0")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87e714b-5758-4fdd-843a-4958835fdbfb")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 213.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf35ab14-c23c-450f-a9f6-f9d0b1326023")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 185.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1386,7 +2384,47 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 106.68) (xy 144.78 109.22)
+			(xy 74.93 111.76) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb85e5a0-4885-4c36-b1e4-b5c3c38235ac")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 154.94 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbece55c-821a-4ddc-944b-cc710cd7a080")
+	)
+	(wire
+		(pts
+			(xy 66.04 77.47) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52ccdac-bebf-4b64-b02d-9e3ebe5eea22")
+	)
+	(wire
+		(pts
+			(xy 69.85 106.68) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76426d3-72fc-48b1-8759-34ee72a6f619")
+	)
+	(wire
+		(pts
+			(xy 187.96 114.3) (xy 187.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1396,7 +2434,27 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 144.78 99.06)
+			(xy 152.4 53.34) (xy 154.94 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7854ec-8f3a-45a2-889f-b30df7022848")
+	)
+	(wire
+		(pts
+			(xy 208.28 58.42) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf092ab-9cf5-4d05-9c3b-248762e3c1d8")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1404,9 +2462,59 @@
 		)
 		(uuid "fc5c8903-2f31-432d-84b5-70581365a699")
 	)
+	(label "BOOTLOADER_SWITCH"
+		(at 86.36 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "036813d3-2f14-4372-8f06-859c02cd42d4")
+	)
+	(label "BOOTLOADER_SWITCH"
+		(at 134.62 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "258266b5-d6fb-4b01-a525-38f45e451ae7")
+	)
+	(label "EN"
+		(at 90.17 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf3406c-01e9-4061-bb63-4c95b29350e9")
+	)
+	(label "VCC_3V3"
+		(at 213.36 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b869aff3-8788-4ff8-9fee-0553144db72c")
+	)
+	(label "EN"
+		(at 152.4 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be6a5090-418d-4aed-8133-317905c9fda5")
+	)
 	(hierarchical_label "D-"
 		(shape bidirectional)
-		(at 144.78 58.42 0)
+		(at 187.96 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +2525,7 @@
 	)
 	(hierarchical_label "D+"
 		(shape bidirectional)
-		(at 144.78 55.88 0)
+		(at 187.96 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,8 +2535,253 @@
 		(uuid "8c97fe31-8b59-49bf-bbf8-f34a68eb2cfa")
 	)
 	(symbol
+		(lib_id "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603")
+		(at 201.93 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "147e612a-48fa-41e3-9300-4ffe0d00afb9")
+		(property "Reference" "C6"
+			(at 197.612 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 196.342 57.912 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108079.pdf"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0603 Ceramic Capacitors ROHS"
+			(at 209.55 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 217.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C108079"
+			(at 207.01 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 212.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9c152e90-2f73-425a-8e3b-d8dd9941cff0")
+		)
+		(pin "1"
+			(uuid "93f63dfe-5564-4c89-a421-3988f3ee1717")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c1eb08b-2cf8-48ba-97ee-c3b6d686514d")
+		(property "Reference" "#PWR014"
+			(at 69.85 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd28db5c-520a-483a-8009-83118ff63144")
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26c6b25c-0ed9-425a-8b19-7608f3762ddb")
+		(property "Reference" "#PWR015"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "affb57a5-6ef3-4792-93b2-f56e1f458fd9")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Open-Jammer:ESP32-S3-WROOM-1-N16R2")
-		(at 127 73.66 0)
+		(at 170.18 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1437,7 +2790,7 @@
 		(fields_autoplaced yes)
 		(uuid "335a871f-2924-42c8-b2cc-22c32cda0afe")
 		(property "Reference" "U5"
-			(at 127 35.56 0)
+			(at 170.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +2798,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1-N16R2"
-			(at 127 38.1 0)
+			(at 170.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +2806,7 @@
 			)
 		)
 		(property "Footprint" "Open-Jammer:XCVR_ESP32-S3-WROOM-1-N16R2"
-			(at 127 144.78 0)
+			(at 170.18 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1463,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2913205.pdf"
-			(at 127 127 0)
+			(at 170.18 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +2825,7 @@
 			)
 		)
 		(property "Description" "SMD,25.5x18mm RF Transceiver Modules and Modems ROHS"
-			(at 127 134.62 0)
+			(at 170.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +2834,7 @@
 			)
 		)
 		(property "Manufacturer" "Espressif"
-			(at 127 132.08 0)
+			(at 170.18 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +2844,7 @@
 			)
 		)
 		(property "MPN" "ESP32-S3-WROOM-1-N16R2"
-			(at 127 129.54 0)
+			(at 170.18 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +2853,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 127 139.7 0)
+			(at 170.18 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +2862,7 @@
 			)
 		)
 		(property "SPN" "C2913205"
-			(at 127 124.46 0)
+			(at 170.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +2871,7 @@
 			)
 		)
 		(property "Package" "SMD,25.5x18mm"
-			(at 127 137.16 0)
+			(at 170.18 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +3038,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 121.92 0)
+		(at 187.96 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1694,7 +3047,7 @@
 		(fields_autoplaced yes)
 		(uuid "49859d2f-513a-40e6-a5c2-628a9f826a21")
 		(property "Reference" "#PWR06"
-			(at 144.78 128.27 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +3056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 127 0)
+			(at 187.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +3064,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 121.92 0)
+			(at 187.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +3073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 121.92 0)
+			(at 187.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +3082,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 121.92 0)
+			(at 187.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,6 +3097,712 @@
 			(project ""
 				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:TACTILE_SWITCH_SPST_SMD")
+		(at 78.74 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5dd3eda4-dae3-49d7-81ac-3c2abd1ce40e")
+		(property "Reference" "SW1"
+			(at 78.994 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1109S-A-C"
+			(at 91.948 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Open-Jammer:TACTILE_SWITCH_SMD"
+			(at 78.74 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885142.pdf"
+			(at 78.74 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST 100gf 4.5mm Gull Wing 4.5mm x 4.5mm Surface Mount"
+			(at 78.74 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 78.74 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-1109S-A-C"
+			(at 78.994 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 78.74 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C2885142"
+			(at 78.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,4.5x4.5mm"
+			(at 78.994 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1b23f522-2288-46dc-b5a6-05a30648cad4")
+		)
+		(pin "2"
+			(uuid "483fc84b-8f3f-45fb-8fdb-c063c4df6461")
+		)
+		(pin "1"
+			(uuid "bcb4630b-8236-4cbc-bd15-8155a79a1d4a")
+		)
+		(pin "3"
+			(uuid "8722ff1b-7eb9-4dc8-8a89-23c651f09cd4")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:TACTILE_SWITCH_SPST_SMD")
+		(at 82.55 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "630b9645-20de-4443-a657-544a57661421")
+		(property "Reference" "SW2"
+			(at 82.804 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1109S-A-C"
+			(at 95.758 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Open-Jammer:TACTILE_SWITCH_SMD"
+			(at 82.55 126.238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2885142.pdf"
+			(at 82.55 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switch SPST 100gf 4.5mm Gull Wing 4.5mm x 4.5mm Surface Mount"
+			(at 82.55 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 82.55 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-1109S-A-C"
+			(at 82.804 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 82.55 122.682 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C2885142"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4P,4.5x4.5mm"
+			(at 82.804 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "aa6b05d1-512c-413a-a32c-8b1c0fd3e5b9")
+		)
+		(pin "2"
+			(uuid "3e7bdb63-5ace-40cb-ab86-0ee606db71da")
+		)
+		(pin "1"
+			(uuid "0b95af06-8402-4a03-bb8f-e2f00e240351")
+		)
+		(pin "3"
+			(uuid "dcc244d2-cffd-4f8c-b450-9d74223a5eea")
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603")
+		(at 82.55 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dca1573-2190-4e72-ad01-e96992314343")
+		(property "Reference" "C5"
+			(at 86.106 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 82.55 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108079.pdf"
+			(at 82.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0603 Ceramic Capacitors ROHS"
+			(at 82.55 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 82.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C108079"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 82.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 82.55 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 82.55 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0675e18-9189-496a-8c4b-b4907d7a2724")
+		)
+		(pin "2"
+			(uuid "73a39d06-c0fd-4c2c-b1d9-f67dc2bffc1f")
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:CAP_10u_20%_X5R_25V_0603")
+		(at 208.28 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9d43d85-161b-414f-a9ee-80e27df953f6")
+		(property "Reference" "C7"
+			(at 212.09 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10u"
+			(at 212.09 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C91606.pdf"
+			(at 217.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF ±20% 25V Ceramic Capacitor X5R 0603"
+			(at 212.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 214.63 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C91606"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "muRata"
+			(at 224.79 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E106MA73D"
+			(at 219.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85e8994a-b59c-45f1-bf69-8bb86f0b213b")
+		)
+		(pin "1"
+			(uuid "d4c2fcb5-b9f9-4c35-b83b-66c8fcc1f66b")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Open-Jammer:CAP_0.1u_10%_X7R_16V_0603")
+		(at 78.74 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c61996-0df6-49cf-ae4a-2d3eb5806ce6")
+		(property "Reference" "C4"
+			(at 82.296 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 78.74 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108079.pdf"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0603 Ceramic Capacitors ROHS"
+			(at 78.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 78.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SPN" "C108079"
+			(at 78.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 78.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0603KRX7R7BB104"
+			(at 78.74 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "468fc8b0-c206-44b9-ae23-1dd21b7e549a")
+		)
+		(pin "2"
+			(uuid "2d3c197c-f1b0-49d1-b91b-68a95162978e")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfd1ff2c-080c-47db-a2c6-a15c9c69e5ab")
+		(property "Reference" "#PWR013"
+			(at 66.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08302c5a-e500-43af-9006-384f313d6a90")
+		)
+		(instances
+			(project ""
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f1a2e7-0ff6-48f9-8e34-c660fb6c8079")
+		(property "Reference" "#PWR016"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54593f2-ed28-4d9a-9a64-0a91bb82157a")
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce/4c9c5cc0-9711-4fe1-acc5-922c3f18f5d7"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)

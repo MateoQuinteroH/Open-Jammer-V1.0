@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "b23e48e3-251d-4338-80a5-5d786007ffce")
 	(paper "A4")
+	(title_block
+		(title "Oper Jammer V1R0")
+		(rev "V1R0")
+	)
 	(lib_symbols
 		(symbol "power:+5V"
 			(power)
@@ -326,8 +330,8 @@
 		)
 	)
 	(sheet
-		(at 91.44 47.752)
-		(size 58.166 30.734)
+		(at 91.44 48.26)
+		(size 58.166 30.226)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -343,7 +347,7 @@
 		)
 		(uuid "1b18012d-69cf-4450-81f4-d4a366708bc9")
 		(property "Sheetname" "Power_Management"
-			(at 91.44 46.2276 0)
+			(at 91.44 46.7356 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -527,6 +531,51 @@
 			(project "Open-Jammer-V1.0"
 				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 46.99)
+		(size 52.07 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.508)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7d1c934-2307-42a6-b964-7475eedce4db")
+		(property "Sheetname" "User_Interface"
+			(at 175.26 46.1006 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "User_Interface.kicad_sch"
+			(at 175.26 78.2324 0)
+			(effects
+				(font
+					(size 2.032 2.032)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Open-Jammer-V1.0"
+				(path "/b23e48e3-251d-4338-80a5-5d786007ffce"
+					(page "5")
 				)
 			)
 		)
